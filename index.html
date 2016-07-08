@@ -14,13 +14,13 @@
       background-color: #333333;
       position: relative;
     }
-    .outerbar{
+    .container{
       width: 100%;
-      height: 50px;
+      height: 2000px;
       margin: 0;
       padding: 0;
-      position: relative;
-      text-align: center;
+/*       position: relative; */
+/*       text-align: center; */
     }
     .bar-anchor{
       width: 600px;
@@ -35,18 +35,16 @@
 </head>
 <body>
   <div class="container">
-    <div class="placeholder" style="background-color:#8888ff"></div>
-    <div class="outerbar">
-      <div class="bar"></div>
+    <div class="placeholder" style="background-color:#8888ff; color:white;">
+      <script>
+        document.write(navigator.userAgent);
+      </script>
     </div>
+    <div class="bar"></div>
     <div class="placeholder" style="background-color:#88cccc"></div>
-    <div class="outerbar">
-      <div class="bar" style="background-color:#999999"></div>
-    </div>
+    <div class="bar" style="background-color:#999999"></div>
     <div class="placeholder" style="background-color:#88ff88"></div>
-    <div class="outerbar">
-      <div class="bar" style="background-color:#dddddd"></div>
-    </div>
+    <div class="bar" style="background-color:#dddddd"></div>
     <div class="bar-anchor" id="bar-anchor"></div>
   </div>
 
