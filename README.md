@@ -1,2 +1,3 @@
-# sticky-header
-Html sticky-header playground
+# Sticky-header
+Html sticky-header playground.
+
